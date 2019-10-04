@@ -77,12 +77,12 @@ Se puede hacer referencia a la escena dentro de la devolución de llamada utiliz
 
     .setTween(timeline)
     .setPin('.first-section')
-    .addIndicators({
+   .addIndicators({
         name:'Primera',
         colorTrigger: 'black',
         colorStart: 'green',
-    })
-    //.addTo(controller);
+    }) 
+    .addTo(controller);
     
 
 
