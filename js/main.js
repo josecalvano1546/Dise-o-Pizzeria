@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     
-    //let controller = new ScrollMagic.Controller();
+    let controller = new ScrollMagic.Controller();
 
 
     let timeline = new TimelineMax();
