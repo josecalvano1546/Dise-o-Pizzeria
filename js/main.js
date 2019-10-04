@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     
-    let controller = new ScrollMagic.Controller();
+    //let controller = new ScrollMagic.Controller();
 
 
     let timeline = new TimelineMax();
@@ -77,12 +77,12 @@ Se puede hacer referencia a la escena dentro de la devolución de llamada utiliz
 
     .setTween(timeline)
     .setPin('.first-section')
-   .addIndicators({
+   /*.addIndicators({
         name:'Primera',
         colorTrigger: 'black',
         colorStart: 'green',
     }) 
-    .addTo(controller);
+    .addTo(controller); */
     
 
 
@@ -101,12 +101,12 @@ Se puede hacer referencia a la escena dentro de la devolución de llamada utiliz
     .setTween(timeline2)
     .setPin('.second-section')
 
-    .addIndicators({
+  /*  .addIndicators({
         name:'segunda',
         colorTrigger: 'black',
         colorStart: 'green',
     })
-    .addTo(controller);
+    .addTo(controller); */
 
     let timeline3 = new TimelineMax();
     timeline3
@@ -143,12 +143,12 @@ Se puede hacer referencia a la escena dentro de la devolución de llamada utiliz
     }) 
     .setTween(timeline3)
     .setPin('.third-section')
-    .addIndicators({
+  /* .addIndicators({
         name:'tercera',
         colorTrigger: 'black',
         colorStart: 'green',
     })
-    .addTo(controller);
+    .addTo(controller); */
 
     let timeline4 = new TimelineMax();
     timeline4
@@ -173,10 +173,10 @@ Se puede hacer referencia a la escena dentro de la devolución de llamada utiliz
     })
     .setTween(timeline4)
     .setPin('.forth-section')
-    .addIndicators({
+   /* .addIndicators({
         name:'cuarta',
         colorTrigger: 'black',
         colorStart: 'green',
     })
-    .addTo(controller);
+    .addTo(controller);*/
 })
