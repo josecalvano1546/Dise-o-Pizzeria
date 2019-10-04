@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     
-    let controller = new ScrollMagic.Controller();
+    //let controller = new ScrollMagic.Controller();
 
 
     let timeline = new TimelineMax();
@@ -86,11 +86,11 @@ Se puede hacer referencia a la escena dentro de la devolución de llamada utiliz
     
 
 
-    let timeline2 = new TimelineMax();
+  /*  let timeline2 = new TimelineMax();
     timeline2
     .to('.top .image-container', 4, {
         height: 0
-    });
+    }); */
 
     let scene2 = new ScrollMagic.Scene({
         triggerElement: '.second-section',
@@ -135,12 +135,12 @@ Se puede hacer referencia a la escena dentro de la devolución de llamada utiliz
         ease: Power3.easeInOut
     }, '-=4')
 
-    let scene3 = new ScrollMagic.Scene({
+  let scene3 = new ScrollMagic.Scene({
         triggerElement: '.third-section',
         duration: '100%',
         triggerHook: 0,
         offset: '200'
-    })
+    }) 
     .setTween(timeline3)
     .setPin('.third-section')
     .addIndicators({
