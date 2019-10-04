@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     
-    //let controller = new ScrollMagic.Controller();
+    let controller = new ScrollMagic.Controller();
 
 
     let timeline = new TimelineMax();
@@ -81,8 +81,8 @@ Se puede hacer referencia a la escena dentro de la devolución de llamada utiliz
         name:'Primera',
         colorTrigger: 'black',
         colorStart: 'green',
-    }) 
-    .addTo(controller); */
+    }) */
+    .addTo(controller); 
     
 
 
@@ -105,8 +105,8 @@ Se puede hacer referencia a la escena dentro de la devolución de llamada utiliz
         name:'segunda',
         colorTrigger: 'black',
         colorStart: 'green',
-    })
-    .addTo(controller); */
+    }) */
+    .addTo(controller); 
 
     let timeline3 = new TimelineMax();
     timeline3
@@ -147,8 +147,8 @@ Se puede hacer referencia a la escena dentro de la devolución de llamada utiliz
         name:'tercera',
         colorTrigger: 'black',
         colorStart: 'green',
-    })
-    .addTo(controller); */
+    }) */
+    .addTo(controller); 
 
     let timeline4 = new TimelineMax();
     timeline4
@@ -177,6 +177,6 @@ Se puede hacer referencia a la escena dentro de la devolución de llamada utiliz
         name:'cuarta',
         colorTrigger: 'black',
         colorStart: 'green',
-    })
-    .addTo(controller);*/
+    }) */
+    .addTo(controller);
 })
