@@ -82,15 +82,15 @@ Se puede hacer referencia a la escena dentro de la devolución de llamada utiliz
         colorTrigger: 'black',
         colorStart: 'green',
     })
-    .addTo(controller);
+    //.addTo(controller);
     
 
 
-  /*  let timeline2 = new TimelineMax();
+  let timeline2 = new TimelineMax();
     timeline2
     .to('.top .image-container', 4, {
         height: 0
-    }); */
+    }); 
 
     let scene2 = new ScrollMagic.Scene({
         triggerElement: '.second-section',
